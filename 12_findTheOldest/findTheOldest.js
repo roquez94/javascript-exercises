@@ -8,7 +8,7 @@ const findTheOldest = function(people) {
         let lastGuy = (a["yearOfDeath"] || thisYear) - a["yearOfBirth"];
         let nextGuy = (z["yearOfDeath"] || thisYear) - z["yearOfBirth"];
 
-
+//
         if (lastGuy > nextGuy){
             return -1;
         } else {
